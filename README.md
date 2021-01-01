@@ -1,5 +1,8 @@
 # Bredbandskollen
-[About](http://www.bredbandskollen.se/om/) [bredbandskollen](http://www.bredbandskollen.se) (In Swedish)
+Bredbandskollen is an easy way for you to measure your internet speed and to get help to improve it. (From: http://www.bredbandskollen.se/en/)
+
+[About](http://www.bredbandskollen.se/om/)
+[Bredbandskollen](http://www.bredbandskollen.se) (In Swedish)
 
 ## Docker build 
 `docker build -t marcgeld/bredbandskollen .`
