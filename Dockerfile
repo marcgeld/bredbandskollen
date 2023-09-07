@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-LABEL maintainer="Marcus Gelderman <marcgeld@gmail.org>"
+LABEL maintainer="Marcus Gelderman <marcgeld@gmail.com>"
 # https://www.ntop.org/guides/ntopng
 
 RUN apt-get clean all \
@@ -11,6 +11,7 @@ RUN apt-get clean all \
 RUN curl --ciphers DEFAULT@SECLEVEL=1 -o bbk_cli  https://frontend.bredbandskollen.se/download/bbk_cli_linux_amd64-1.0
 RUN chmod +x bbk_cli
 ENTRYPOINT ["./bbk_cli"]
+
 
 
 

@@ -26,3 +26,5 @@ creds.json
 *.crt
 *.key
 data
+
+.vscode/
