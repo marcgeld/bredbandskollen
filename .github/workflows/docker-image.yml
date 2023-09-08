@@ -9,6 +9,7 @@ on:
 jobs:
   docker:
     runs-on: ubuntu-latest
+    environment: dockerhub_build
     steps:
       -
         name: Set up QEMU
@@ -34,10 +35,4 @@ jobs:
         with:
           push: true
           tags: user/app:latest
-      
-      
 
-
-
-
-      
